@@ -1,0 +1,6 @@
+export enum PriorityType {
+  'POPULARITY', // MAIS VENDIDOS
+  'NEWS', // NOVIDADES
+  'MINOR_PRICE', // MENOR PREÇO
+  'BIGGEST_PRICE' // MAIOR PREÇO
+}
