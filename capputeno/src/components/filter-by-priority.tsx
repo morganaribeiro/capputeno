@@ -4,10 +4,6 @@ import { useState } from "react";
 import styled from "styled-components";
 import { ArrowIcon } from "./arrow-icon";
 
-interface FilterByPriorityProps {
-
-}
-
 const FilterContainer = styled.div`
   display: flex;
   align-items: center;
@@ -38,6 +34,7 @@ const PriorityFilter = styled.ul`
   padding: 12px 16px;
   border-radius: 4px;
   box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  z-index: 999;
   background: #FFFFFF;
   list-style: none;
   top: 100%;
@@ -54,7 +51,7 @@ const PriorityFilter = styled.ul`
   }
 `
 
-export function FilterByPriority(props: FilterByPriorityProps) {
+export function FilterByPriority() {
   const [isOpen, setIsOpen] = useState(false);
   const { setPriority } = useFilter();
 
