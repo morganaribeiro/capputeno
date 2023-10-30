@@ -2,7 +2,7 @@ import { useFilter } from "@/hooks/useFilter";
 import { PriorityType } from "@/types/priority-types";
 import { useState } from "react";
 import styled from "styled-components";
-import { ArrowIcon } from "./arrow-icon";
+import { ArrowIcon } from "./icons/arrow-icon";
 
 const FilterContainer = styled.div`
   display: flex;
