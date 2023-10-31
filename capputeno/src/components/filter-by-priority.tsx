@@ -36,8 +36,11 @@ const PriorityFilter = styled.ul`
   box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
   z-index: 999;
   background: #FFFFFF;
+
   list-style: none;
+  
   top: 100%;
+  right: 8px;
 
   li {
     color: var(--text-dark);
